@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="no-js" prefix="og: https://ogp.me/ns#" lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mértékegység álváltó</title>
+ <link href="https://duyn491kcolsw.cloudfront.net/files/04/04p/04pi85.css?ph=a2cf3859e3" media="print" rel="stylesheet">
+ <script src="main.js"></script> 
+     <style>
+        body {
+ background-color: #FFE5B4; /* Világos meleg narancs árnyalat */
+            color: #8B4513; /* Sötétebb barna szövegszín */
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #FFDAB9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+               .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #FFDAB9; /* Picit sötétebb narancs háttér a dobozoknak */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+               img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #8B4513; /* Kép keret, amely megegyezik a szöveg színével */
+            border-radius: 5px;
+        }
+               a {
+            color: #D2691E; /* Narancs szín a linkekhez */
+            text-decoration: none;
+        }
+               a:hover {
+            text-decoration: underline;
+               }
+ h1, h2,h3,h4,h5,h6, p {
+            color: #8B4513; /* Sötétebb barna szín a címekhez és szövegekhez */
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        .converter {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #D2691E; /* Meleg narancs gomb */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #A0522D; /* Sötétebb narancs árnyalat hover hatás */
+        }
+    </style>
+  </head>
+  <body>
+      <h2>Mértékegység átváltó</h2>
+      <h4>Hogyan használjuk a mértékegység átváltó oldalt?</h4>
+      <ol type="1">
+  <li>lépés</li>
+          <p>Adjuk meg az átváltani kívánt értéket!</p>
+        <img src="image1.png" alt="Első kép">
+  <li>lépés</li>
+          <p>Válasszuk ki, hogy milyen mértékegységből akarunk átváltani!</p>    <!-- Képeket hozzá kell majd adni. -->
+  <img src="image2.png" alt="Első kép">
+        <li>lépés</li>
+          <p>Válasszuk ki, hogy milyen mértékegységre akarunk átváltani!</p>
+        <img src="image3.png" alt="Első kép">
+          <li>lépés</li>
+          <p>Nyomjuk meg az 'Átváltás' feliratú gombot!</p>
+        <img src="image4.png" alt="Első kép">
+</ol>
+    <!-- Alábbi rész bővítendő!!! -->
+    <div class="converter">
+        <h3>Mértékegységek átváltója</h3>
+        <label for="weight-input">Érték:</label>
+        <input type="number" id="weight-input" placeholder="Adja meg az értéket">
+        
+        <label for="weight-from">Átváltás innen:</label>
+        <select id="weight-from">
+            <option value="kilogram">Kilogramm</option>
+            <option value="gram">Gramm</option>
+            <option value="pound">Font</option>
+            <option value="ounce">Uncia</option>
+            <option value="kilometer">Kilóméter</option>
+            <option value="meter">Méter</option>
+            <option value="decimeter">Deciméter</option>
+            <option value="centimeter">Centiméter</option>
+            <option value="millimeter">Milliméter</option>
+            <option value="inch">Hüvelyk</option>
+            <option value="foot">Láb</option>
+            <option value="yard">Öl</option>
+            <option value="bit">Bit</option>
+            <option value="byte">Bájt</option>
+            <option value="kilobyte">Kilobájt</option>
+            <option value="megabyte">Megabájt</option>
+            <option value="gigabyte">Gigabájt</option>
+            <option value="terabyte">Terrabájt</option>
+            <option value="petabyte">Petabájt</option>
+            <option value="exabyte">Exabájt</option>
+            <option value="squareKilometer">Négyzetkilóméter</option>
+            <option value="squareMeter">Négyzetméter</option>
+            <option value="squareDecimeter">Négyzetdeciméter</option>
+            <option value="squareCentimeter">Négyzetcentiméter</option>
+            <option value="square milimeter">Négyzetmiliméter</option>
+            <option value="are">Ár</option>
+            <option value="hectare">Hektár</option>
+            <option value="cubic kilometer">Köbkilóméter</option>
+            <option value="cubicMeter">Köbméter</option>
+            <option value="cubic decimeter">Köbdeciméter</option>
+            <option value="cubicCentimeter">Köbcentiméter</option>
+            <option value="cubic milimeter">Köbmiliméter</option>
+            <option value="hectoliter">Hektóliter</option>
+            <option value="liter">Liter</option>
+            <option value="deciliter">Deciliter</option>
+            <option value="centiliter">Centiliter</option>
+            <option value="milliliter">Mililiter</option>
+        </select>
+
+        <label for="weight-to">Átváltás ide:</label>
+        <select id="weight-to">
+            <option value="kilogram">Kilogramm</option>
+            <option value="gram">Gramm</option>
+            <option value="pound">Font</option>
+            <option value="ounce">Uncia</option>
+            <option value="kilometer">Kilóméter</option>
+            <option value="meter">Méter</option>
+            <option value="decimeter">Deciméter</option>
+            <option value="centimeter">Centiméter</option>
+            <option value="millimeter">Milliméter</option>
+            <option value="inch">Hüvelyk</option>
+            <option value="foot">Láb</option>
+            <option value="yard">Öl</option>
+            <option value="bit">Bit</option>
+            <option value="byte">Bájt</option>
+            <option value="kilobyte">Kilobájt</option>
+            <option value="megabyte">Megabájt</option>
+            <option value="gigabyte">Gigabájt</option>
+            <option value="terabyte">Terrabájt</option>
+            <option value="petabyte">Petabájt</option>
+            <option value="exabyte">Exabájt</option>
+            <option value="squareKilometer">Négyzetkilóméter</option>
+            <option value="squareMeter">Négyzetméter</option>
+            <option value="squareDecimeter">Négyzetdeciméter</option>
+            <option value="squareCentimeter">Négyzetcentiméter</option>
+            <option value="square milimeter">Négyzetmiliméter</option>
+            <option value="are">Ár</option>
+            <option value="hectare">Hektár</option>
+            <option value="cubic kilometer">Köbkilóméter</option>
+            <option value="cubicMeter">Köbméter</option>
+            <option value="cubic decimeter">Köbdeciméter</option>
+            <option value="cubicCentimeter">Köbcentiméter</option>
+            <option value="cubic milimeter">Köbmiliméter</option>
+            <option value="hectoliter">Hektóliter</option>
+            <option value="liter">Liter</option>
+            <option value="deciliter">Deciliter</option>
+            <option value="centiliter">Centiliter</option>
+            <option value="milliliter">Mililiter</option>
+        </select>
+
+        <button onclick="convertWeight()">Átváltás</button>
+
+        <p id="weight-result"></p>
+    </div>
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+<!-- https://www.youtube.com/watch?v=vkkoqF8tvqU -->
